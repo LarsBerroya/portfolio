@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./mediaqueries.css">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,500&family=Poppins&family=Roboto:wght@400;700&family=Tilt+Neon&display=swap');
+        </style>
+    </head>
+
+    <body>
+        <nav id="nav">
+            <div class="logo">Lars Ulrich</div>
+            <div>
+                <ul class="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger">
+            <div class="logo">Lars Ulrich</div>
+            <div class="hamburgerMenu">
+                <div class="hamburgerIcon" onclick="toggleMenu()">  
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menuLinks">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+
+        </nav>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
