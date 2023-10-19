@@ -41,9 +41,31 @@
                     <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
                 </div>
             </div>
-
         </nav>
 
+        <section id="profile">
+            <div class="sectionPicContainer">
+                <img src="./assets/lars.PNG" alt="lars profile">
+            </div>
+            <div class="text">
+                <p class="p1">Hello, Im </p>
+                <h1 class="title">Lars Ulrich</h1>
+                <p class="p2">Front End Developer</p>
+                <div class="btnContainer">
+                    <button class="btn1" onclick="window.open('./assets/LarsCV.pdf')">
+                        Download CV
+                    </button>
+                    <button class="btn2" onclick="location.href = './#contact'">
+                        Contact Info
+                    </button>
+                </div>
+                <div id="socialContainer">
+                    <img src="./assets/Instagramlogo.png" class="iconInstagram" alt="Instagram Profile" onclick="location.href='https://www.instagram.com/franklin_4ce/'" target="_blank">
+                    <img src="./assets/githublogo.png" class="iconGithub" alt="Github Profile" onclick="location.href='https://github.com/LarsBerroya'" target="_blank">
+                </div>
+            </div>
+
+        </section>
         
 
         <script src="script.js"></script>
