@@ -296,6 +296,7 @@ section{
 }
 
 .arrow{
+    cursor: pointer;
     position: absolute;
     bottom: 2.5rem;
     right: -5rem;
@@ -364,4 +365,81 @@ article .icon{
     cursor: default;
     width: 25px;
     height: 25px;
+}
+
+/* Project */
+
+#project{
+    position: relative;
+}
+
+.colorContainer{
+    border-color: rgb(163,163,163);
+    background: rgb(255,255,255);
+}
+
+.projectImg{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+
+}
+
+.projectTitle{
+    margin: 1rem;
+    color: black;
+
+}
+
+.projectBtn{
+    color: black;
+    border-color: rgb(163,163,163);
+}
+
+/* Contact */
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+
+}
+
+.contactInfoUpper{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    background: rgb(255,255,255);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contactInfoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contactInfoContainer{
+    font-size: larger;
+}
+
+.contacticon{
+    cursor: default;
+}
+
+/* Footer */
+
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
 }

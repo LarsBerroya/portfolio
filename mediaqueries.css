@@ -1,8 +1,129 @@
+@media screen and (max-width: 1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .aboutContainer{
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 1200px){
     #nav{
         display: none;
     }
     #hamburger{
         display: flex;
+    }
+
+    #experience, .experienceDetailsContainer{
+        margin-top: 2rem;
+
+    }
+    #profile, .sectionContainer{
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    .sectionContainer{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .sectionPicContainer{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto;
+    }
+    .aboutContainer{
+        margin-top: 0;
+    }
+
+    .sectionPicContainer{
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    #contact, footer{
+        height: 40vh;
+
+    }
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .aboutContainer, .contactInfoUpper, .btnContainer{
+        flex-wrap: wrap;
+    }
+
+    .contactInfoContainer{
+        margin: 0;
+
+    }
+    .contactInfoContainer p, .navLinks li a{
+        font-size: 1rem;
+    }
+    .experienceSubTitle{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .sectionPicContainer{
+        width: auto;
+        height: 50vw;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .navLinks{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .p2{
+        font-size: 1.25rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+    #about{
+        height: fit-content;
+    }
+
+    #experience{
+        height: fit-content;
+    }
+
+    #project{
+        height: fit-content;
+    }
+
+    #project .title{
+        margin-bottom: 1rem;
+    }
+
+    #experience .title{
+        margin-bottom: 1rem;
+    }
+
+    #about .title{
+        margin-bottom: 1rem;
+    }
+
+    .textContainer{
+        text-align: justify;
     }
 }
