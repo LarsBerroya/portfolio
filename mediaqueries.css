@@ -126,4 +126,12 @@
     .textContainer{
         text-align: justify;
     }
+
+    .aboutContainer{
+        display: inline-block;
+    }
+
+    .detailsContainer{
+        margin-bottom: 10px;
+    }
 }

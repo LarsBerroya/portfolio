@@ -94,6 +94,7 @@ a:hover{
     top: 100%;
     right: 0;
     background-color: white;
+    border-right: rgb(53,53,53) 1px solid;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -310,6 +311,7 @@ section{
     border: rgb(53,53,53) 0.1rem solid;
     border-color: rgb(163.163,163) ;
     text-align: center;
+    
 }
 
 .sectionPicContainer{
@@ -350,14 +352,13 @@ section{
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: start;
 
 }
 
 article{
     display: flex;
     width: 10rem;
-    justify-content: space-around;
     gap: 0.5rem;
 }
 
